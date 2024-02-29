@@ -1,0 +1,647 @@
+.sec{
+    overflow: hidden;
+}
+.sec1{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.mentor{
+    color: rgb(67, 240, 67);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.upbutton{
+    border: solid;
+    border-width: thin;
+    border-radius: 25px;
+    background-color: rgb(145, 244, 145);
+    border-color: rgb(145, 244, 145);
+    margin-left: 15px;
+    padding: 5px;
+}
+
+a.links{
+    margin-left: 15px;
+    display: inline-block;
+    color: rgb(113, 112, 112);
+    font-size: 15px;
+}
+
+.links:hover{
+    color: rgb(109, 241, 109);
+    text-decoration: none;
+}
+
+a .links:active {
+    color: rgb(109, 241, 109);
+}
+
+.ddlink{
+    font-size: 10px;
+}
+
+.dropbox{
+    display: inline-block;
+    position: relative;
+}
+
+.drop{
+    display: block;
+    color: rgb(113, 112, 112);
+    font-size: 13px;
+    padding: 10px 5px;
+}
+
+.drop:hover{
+    text-decoration: none;
+    color: rgb(61, 227, 61);
+}
+
+.dropcontent{
+    position: absolute;
+    background-color: white;
+    width: 140px;
+    display: none;
+}
+
+.dropbox:hover .dropcontent{
+    display: block;
+}
+
+.dropbox2{
+    display: inline-block;
+    position: relative;
+}
+
+.deeplink:hover{
+    text-decoration: none;
+    color: rgb(61, 227, 61);
+}
+
+a.deeplink{
+        margin-left: 5px;
+        display: inline-block;
+        color: rgb(113, 112, 112);
+        font-size: 13px;
+}
+
+.subcontent{
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    background-color: white;
+    width: 160px;
+    display: none;
+}
+
+.drop2{
+    display: block;
+    color: rgb(113, 112, 112);
+    font-size: 13px;
+    padding: 10px 5px;
+}
+
+.drop2:hover{
+    text-decoration: none;
+    color: rgb(61, 227, 61);
+}
+
+.dropbox2:hover .subcontent{
+    display: block;
+}
+
+
+.uplink{
+    color: white;
+}
+
+.alink:hover{
+    text-decoration: none;
+}
+
+
+.Sec2{
+    background-image:url("girlimg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+
+}
+
+.mainhead{
+    color: White;
+    font-size: 50px;
+}
+
+.box{
+    background-color: rgb(0, 0, 0,0.5);
+    height: 500px;
+}
+.mainpara{
+    color: white;
+    font-size: 20px;
+}
+
+.Getbutton{
+    height: 50px;
+    width: 150px;
+    border: solid;
+    border-width: thin;
+    border-color: rgb(230, 231, 233);
+    border-radius: 25px;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+.getstart{
+    color: white;
+    text-decoration: none;
+}
+.getstart:hover{
+    color: rgb(178, 177, 177);
+    text-decoration: none;
+}
+
+.b1{
+   min-height: 300px;
+   padding: 10% 0%;
+
+}
+.head1{
+    font-size: 28px;
+}
+.list{
+    margin: 0px;
+    padding: 0px;
+}
+.icon{
+    color: rgb(40, 188, 40);
+}
+.img2{
+    /* height: 300px; */
+    width: 100%;
+}
+
+.sec4{
+    background-color: rgb(246, 244, 244);
+}
+
+.b2{
+    /* min-height: 200px; */
+    text-align: center;
+    padding: 10% 0%;
+}
+
+.P2{
+    color: rgb(46, 212, 46);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.b3{
+    background-color: rgb(58, 166, 58);
+    min-height: 280px;
+    padding: 10% 5%;
+    color: white;
+    text-align: center;
+}
+
+.WCM{
+    text-align: left;
+}
+.para1{
+    text-align: left;
+}
+
+.b4{
+    padding: 12% 5%;
+    min-height: 300px;
+    border: solid;
+    border-width: thin;
+    border-color: rgb(230, 231, 233);
+    text-align: center;
+}
+.head2{
+    font-size: 18px;
+}
+.para2{
+    font-size: 14px;
+    color: rgb(157, 157, 157);
+}
+.icon1{
+    color: rgb(120, 223, 120);
+    font-size: 20px;
+    background-color:rgb(214, 241, 214);
+    padding: 15px;
+    border-radius: 50%;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.sec6{
+    margin-top: 30px;
+}
+.b5{
+    padding: 15px;
+    text-align: left;
+    border: solid;
+    border-width: thin;
+    border-color: rgb(230, 231, 233);
+    margin-top: 20px;
+}
+
+.b5:hover{
+    border-color: lightgreen;
+}
+
+.b5:hover .sp{
+    color: lightgreen;
+}
+
+.LM{
+    height: 35px;
+    width: 150px;
+    border: solid;
+    border-width: thin;
+    border-color:rgb(74, 236, 74);
+    border-radius: 25px;
+    background-color:rgb(172, 237, 172);
+}
+
+.LM:hover{
+    background-color: white;
+}
+
+.lmlink{
+    color: white;
+    padding:8px;
+    font-size: 15px;
+}
+.lmlink:hover{
+    text-decoration: none;
+    color: rgb(74, 236, 74);
+
+}
+.sp{
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.icon2{
+    color:orange;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon3{
+    color:blue;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon4{
+    color:rgb(214, 10, 112);
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon5{
+    color:rgb(184, 60, 219);
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon6{
+    color:rgb(47, 145, 225);
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon7{
+    color:rgb(182, 99, 9);
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon8{
+    color:rgb(8, 163, 127);
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon9{
+    color:blue;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon10{
+    color:rgb(167, 112, 9);
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon11{
+    color:rgb(199, 43, 150);
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon12{
+    color:red;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+.icon13{
+    color:rgb(41, 174, 41);
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+}
+
+.b8{
+    font-weight: bold;
+}
+
+.crs{
+    color: rgb(165, 165, 165);
+}
+
+.line{
+    background-color:rgb(78, 214, 78);
+    height: 1px;
+    width:100px;
+    display: inline-block;
+}
+
+.b9{
+    border: solid;
+    border-width: thin;
+    border-color: rgb(228, 227, 227);
+    /* padding-bottom: 8%; */
+}
+
+.img3{
+    height: 250px;
+    width: 100%;
+}
+.outbox{
+    padding: 5%;
+}
+.WD{
+    background-color: rgb(120, 223, 120);
+    text-align: left;
+    font-size: medium;
+    padding: 10px 20px;
+}
+.MK{
+    background-color: rgb(120, 223, 120);
+    text-align: left;
+    padding: 10px 20px;
+    font-size: medium;
+
+}
+.CN{
+    background-color: rgb(120, 223, 120);
+    text-align: left;
+    font-size: medium;
+    padding: 10px 20px;
+
+}
+.para4{
+    text-align: justify;
+    font-size: 17px;
+    font-weight: bold;
+}
+.link1{
+    color: rgb(79, 78, 78);
+    font-size: 18px;
+    text-decoration: none;
+}
+a.link1:hover{
+    color: rgb(68, 216, 68);
+    text-decoration: none;
+}
+.para5{
+    text-align: left;
+    font-size: 12px;
+    color: rgb(145, 145, 145);
+}
+
+.inbox3{
+    text-align: right;
+    margin-right: 20%;
+}
+
+.img4{
+    border-radius: 50px;
+    height: 50px;
+}
+
+.sp1{
+    color: rgb(172, 172, 173);
+}
+.b11{
+    text-align: right;
+    color: rgb(125, 125, 127);
+    font-size: 15px;
+}
+
+.b12{
+    border: solid;
+    border-width: thin;
+    text-align: center;
+    border-color: rgb(221, 220, 220);
+    padding-bottom: 10%;
+
+}
+.head3{
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.head4{
+    color: rgb(132, 131, 131);
+    font-style: italic;
+    text-align: center;
+    padding: 0px 15px;
+    font-size: 15px;
+}
+
+.para6{
+    color: rgb(186, 184, 184);
+    /* font-weight: bold; */
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+    padding: 0px 15px;
+}
+.icon16,.icon17,.icon18,.icon19{
+    color: rgb(171, 170, 170);
+
+}
+a.soc i:hover{
+    color: rgb(71, 183, 71);
+}
+
+/* .b11{
+    background-color: rgb(244, 244, 241);
+    margin-top: 70px;
+    font-size: 12px;
+} */
+
+.use{
+    margin-top: 10px;
+}
+
+.services{
+    margin-right:70px ;
+}
+
+.sec10{
+    background-color: rgba(195, 192, 192, 0.119);
+    padding: 1% 0%;
+    margin-top: 5%;
+}
+.b13{
+    padding: 10% 0%;
+    min-height: 300px;
+}
+
+.phone,.email{
+    color: rgb(107, 106, 106);
+    font-style: italic;
+}
+
+.blank{
+    background-color: rgb(251, 252, 251);
+    height:calc(100% - 10px);
+    width: calc(100% - 120px);
+    border:0px;
+    display: block;
+    position:absolute;
+    right: 105px;
+    top: 5px;
+
+}
+
+.form1{
+    position: relative;
+    border:1px solid lightgray;
+    padding: 5px 12px;
+    border-radius:25px;
+    background-color: white;
+    height: 38px;
+    overflow: hidden;
+
+}
+.button1{
+    background-color: rgb(49, 236, 55);
+    height:100%;
+    border: solid;
+    border-radius: 25px;
+    border-width: thin;
+    width: 100px;
+    color:white;
+    /* text-align: center; */
+    font-size: 15px;
+    position: absolute;
+    display: block;
+    right: 0px;
+    top: 0px;
+}
+.sec11{
+    background-color: rgba(195, 192, 192, 0.263);
+}
+.list1{
+    line-height: 2;
+    padding: 0px;
+    margin: 0px;
+}
+.boot{
+    color: rgb(39, 232, 39);
+    margin-top: 20px;
+
+}
+
+.boot:hover{
+    text-decoration: none;
+}
+
+.icon21,.icon22,.icon23,.icon24,.icon25{
+    background-color:rgb(107, 237, 107) ;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 30px;
+    display: inline-block;
+
+}
+
+.b14{
+    /* text-align: left; */
+    padding: 5% 0%;
+
+}
+.b15{
+    text-align: right;
+    padding: 3% 0%;
+
+}
+
+.icon26{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 30px;
+    color: rgb(107, 237, 107) ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media(max-width:768px){
+    .b2{
+        padding: 5% 0%;
+    }
+    .b4{
+        padding: 7% 0%;
+    }
+    .use,.services{
+        text-align: left;
+        margin-left: 5%;
+    }
+}
+@media(max-width:767px){
+    .b14,.b15{
+        text-align: center;
+    }
+}
+@media(max-width:540px){
+    .b2{
+        padding: 5% 0%;
+    }
+    .b4{
+        padding: 7% 0%;
+    }
+    .use,.services{
+        text-align: left;
+        margin-left: 5%;
+    }
+}
+
+
+
+
+
